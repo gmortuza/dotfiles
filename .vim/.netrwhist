@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/golammortuza/workspace/nam/other_software/dNAM_recorded_movie'
+let g:netrw_dirhist_1='/Users/golammortuza/.cisco/vpn/log'
+let g:netrw_dirhist_0='/Users/golammortuza/.cisco/vpn'
+let g:netrw_dirhist_9='/Users/golammortuza/.cisco'
+let g:netrw_dirhist_8='/Users/golammortuza/PycharmProjects/kaggle-bengaliai-cv19/src'
+let g:netrw_dirhist_7='/Users/golammortuza/Public/Drop Box'
+let g:netrw_dirhist_6='/Users/golammortuza/Public'
+let g:netrw_dirhist_5='/Users/golammortuza/PycharmProjects/Reed-Solomon'
+let g:netrw_dirhist_4='/Users/golammortuza/PycharmProjects'
+let g:netrw_dirhist_3='/Users/golammortuza/.jupyter'

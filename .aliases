@@ -151,7 +151,8 @@ alias path='echo -e ${PATH//:/\\n}'
 ##Login to shell
 alias onyx='ssh golammdmortuza@onyx.boisestate.edu'
 alias r2='ssh gmortuza@r2.boisestate.edu'
-alias timoffice='ssh golam@iapetus'
+alias borah='ssh gmortuza@borah-login'
+alias iapetus='ssh golam@iapetus'
 alias inl='ssh mortgola@hpclogin.inl.gov'
 alias ml='cd "/Users/golammortuza/workspace/learn/learn-machine-learning"'
 # macvim as default
@@ -181,4 +182,6 @@ alias cpuinfo='sysctl -a | grep machdep.cpu'
 ## get GPU ram on desktop / laptop##
 alias gpumeminfo='system_profiler SPDisplaysDataType'
 
+alias notebook_remote='ssh -N -f -L localhost:8888:localhost:8889 golam@iapetus && open http://localhost:8888'
 
+alias temp='curl https://wttr.in/Boise'
